@@ -24,6 +24,9 @@ insert(my_bag, '빗')
 end = time.time()
 print('실행시간:', end - start)
 # print('가방속의 물건:', my_bag)
+print('가방속의 물건 개수:', count(my_bag))
+
+# 추가적인 부분 생성
 
 """ insert(my_bag, '빗')
 remove(my_bag, '손수건')
